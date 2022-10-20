@@ -15,3 +15,16 @@ node app.js
 ```
 
 This will make node (a JavaScript runtime) look for a file called `app.js` and run it.
+
+Alternatively, run
+```bash
+npm start
+```
+
+or
+
+```bash
+npm run start
+```
+
+This will look for the "start" script in `package.json` (currently set to `node app.js`) and execute it.
